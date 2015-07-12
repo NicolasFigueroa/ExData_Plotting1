@@ -1,4 +1,4 @@
-# Download file if not ixist
+# Download file if not exist...
 
 if(!file.exists("dataset.zip")){
   download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",destfile = "dataset.zip")
